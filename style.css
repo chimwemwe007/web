@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.hero{
+    background: grey;
+    height: 350px;
+
+}
+.header{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header img{
+    height: 30px;
+    border-radius: 20px;
+    margin: 10px 3px 10px 10px;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+ul{
+    display: flex;
+   
+
+}
+.links{
+    display: flex;
+
+    
+
+}
+li{
+    list-style-type: none;
+    margin: 11px;
+    
+}
+a{
+  text-decoration: none;  
+  color: #fff;
+}
+a:hover{
+color: blue;
+}
